@@ -2,12 +2,13 @@
 
 import random
 
-nomes = input('Digite o 1º nome: '), input('Digite o 2º nome: '), input('Digite o 3º nome: '), input('Digite o 4º nome: ')
+n1 = input('Digite o 1º nome: ')
+n2 = input('Digite o 2º nome: ')
+n3 = input('Digite o 3º nome: ')
+n4 = input('Digite o 4º nome: ')
 
-for i in range(4):
-    pos = random.randint(i, 3)
-    aux = nomes[pos]
+nomes = [n1, n2, n3, n4]
 
-    nomes[pos] = nomes[i]
-    nomes[i] = aux
-print(nomes)
+random.shuffle(nomes)
+
+print('A ordem de nomes é: {}'.format(nomes))
