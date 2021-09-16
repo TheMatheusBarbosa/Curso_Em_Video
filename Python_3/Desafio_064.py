@@ -10,4 +10,4 @@ while(vlr != 999):
     cont += 1
 
 print('Foram digitados {} números'.format(cont - 1))
-print('A soma de todos os numeros digitados deu {}'.format(soma - 999))
+print('A soma de todos os números digitados deu {}'.format(soma - 999))
