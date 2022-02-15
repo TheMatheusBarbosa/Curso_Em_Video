@@ -12,7 +12,7 @@ pc = random.randint(1, 3)
 
 if(vlr == 1):
     if(pc == 3):
-        print("Você ganhou!!!")
+        print('Você ganhou!!!')
     
     elif(pc == 2):
         print('Você perdeu!!!')
@@ -22,7 +22,7 @@ if(vlr == 1):
 
 elif(vlr == 2):
     if(pc == 1):
-        print("Você ganhou!!!")
+        print('Você ganhou!!!')
     
     elif(pc == 3):
         print('Você perdeu!!!')
@@ -32,7 +32,7 @@ elif(vlr == 2):
 
 elif(vlr == 3):
     if(pc == 2):
-        print("Você ganhou!!!")
+        print('Você ganhou!!!')
     
     elif(pc == 1):
         print('Você perdeu!!!')

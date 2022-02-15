@@ -2,7 +2,7 @@
 
 vlr = input('Digite algo: ')
 
-print("o tipo primitivo do que você digitou é: {}".format(type(vlr)))
+print('o tipo primitivo do que você digitou é: {}'.format(type(vlr)))
 print('O que você digitou, é ALFANUMÉRICO? {}'.format(vlr.isalnum()))
 print('O que você digitou, é ALFABÉTICO? {}'.format(vlr.isalpha()))
 print('O que você digitou, é NUMÉRICO? {}'.format(vlr.isnumeric()))
